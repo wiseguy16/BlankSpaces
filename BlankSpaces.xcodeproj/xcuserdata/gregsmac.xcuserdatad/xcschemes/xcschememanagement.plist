@@ -7,7 +7,25 @@
 		<key>BlankSpaces.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1E4D51F41FAFE2DB004AC8F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1E4D52081FAFE2DB004AC8F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1E4D52131FAFE2DB004AC8F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

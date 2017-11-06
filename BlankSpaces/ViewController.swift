@@ -9,9 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var aName: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        aName = "Hello There"
+        let name = aName!
+        print(name)
         // This project should check for unneaded spaces
         // This is first push to remote
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,6 +26,4 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-
