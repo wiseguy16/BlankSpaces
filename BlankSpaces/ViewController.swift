@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         aName = "Hello There"
         guard let name = aName else { return }
         print(name)
+        
         // This project should check for unneaded spaces
         // This is first push to remote
         // Do any additional setup after loading the view, typically from a nib.
