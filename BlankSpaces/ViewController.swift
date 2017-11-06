@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         aName = "Hello There"
-        let name = aName!
+        guard let name = aName else { return }
         print(name)
         // This project should check for unneaded spaces
         // This is first push to remote
