@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // This project should check for unneaded spaces
         // Do any additional setup after loading the view, typically from a nib.
     }
 
