@@ -38,6 +38,10 @@ class ViewController: UIViewController {
         aNum = 9
         print(aNum)
     }
+    
+    func doSomethingHere() {
+        print("hello again my num is \(myNum)")
+    }
 
 }
 
