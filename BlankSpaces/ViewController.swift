@@ -18,8 +18,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print(aNum)
         
-        
-        
         changeNumber()
         aNum = myNum
          print(aNum)
