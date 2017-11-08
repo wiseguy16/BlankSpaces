@@ -12,10 +12,12 @@ class ViewController: UIViewController {
     var aName: String?
     let myNum = 8
     var aNum: Int?
+    var dat: DataModel?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         print(aNum)
+        
         
         
         changeNumber()
@@ -29,6 +31,8 @@ class ViewController: UIViewController {
         // This project should check for unneaded spaces
         // This is first push to remote
         // Do any additional setup after loading the view, typically from a nib.
+        
+        createAModel()
     }
     
     func changeNumber() {
@@ -41,6 +45,12 @@ class ViewController: UIViewController {
     
     func doSomethingHere() {
         print("hello again my num is \(myNum)")
+    }
+    
+    func createAModel() {
+         dat = DataModel()
+        dat?.name = "Freddy"
+        dat?.age = 30
     }
 
 }
