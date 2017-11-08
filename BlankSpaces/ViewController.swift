@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         aNum = myNum
+        
         aName = "Hello There"
         guard let name = aName else { return }
         print(name)
