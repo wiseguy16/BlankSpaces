@@ -15,8 +15,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print(aNum)
+        changeNumber()
         aNum = myNum
+         print(aNum)
+        changeNumber()
         
         aName = "Hello There"
         guard let name = aName else { return }
@@ -25,5 +28,14 @@ class ViewController: UIViewController {
         // This is first push to remote
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    func changeNumber() {
+        guard aNum != nil else {
+            print(aNum)
+            return }
+        aNum = 9
+        print(aNum)
+    }
 
 }
+
